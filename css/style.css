@@ -1,0 +1,175 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+/*header part start*/
+header{
+	background-color:#000;
+	margin-top:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+header h1{
+  color:#fff;
+  text-align:center;
+  font-size:25px;
+  margin:0px;
+}
+header h1 strong{
+	text-transform: uppercase;
+	font-size:35px;
+
+}
+header h1 a{
+text-decoration:none;
+color:seagreen;
+font-size:15px;
+}
+header h1 a:hover{
+	color:orange;
+}
+/*header part start*/
+
+/*navigation part start*/
+nav{
+	border-bottom:1px solid #999;
+
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+
+}
+nav ul li{
+	list-style:none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	padding:7px 20px;
+	display: block;
+	color:#777;
+	font-size:12px;
+
+}
+nav ul li a:hover{
+	color:seagreen;
+}
+/*navigation part end*/
+/*businesssection part start*/
+.business-section{
+
+}
+.business-section .heading{
+     text-align:center;
+     padding:15px 0px;
+}
+.business-section .heading h1{
+	margin: 0px;
+	font-size:35px;
+	font-family:candara;
+	margin-top:30px;
+}
+.business-section .heading p{
+	margin:0px;
+	font-size:14px;	
+}
+
+.business-section .container{
+	width:70%;
+	margin:0px auto;
+	clear:both;
+	overflow:hidden;
+}
+
+.container .businesslist{
+	width:20%;
+	margin-top:30px;
+	float:left;
+}
+.container .businesslist ul{
+
+}
+.container .businesslist ul li{
+     list-style:none;
+
+}
+.container .businesslist ul li a{
+	text-decoration: none;
+	color:#999;
+	font-size:13px;
+	padding-top:5px;
+	display: block;
+}
+.container .businesslist ul li a strong{
+	font-size:18px;
+	color:#333;
+	
+}
+.container .businesslist ul li a:hover{
+	color:#000;
+}
+.container .business-gallery{
+	width:80%;
+	margin-top:50px;
+	float:left;
+}
+.container .business-gallery .gallery{
+    width:33.33%;
+    float:left;
+    padding-right:10px;
+    box-sizing:border-box;
+    margin-top:20px;
+    display: block;
+}
+.container .business-gallery .gallery img{
+	width:100%;
+}
+.container .business-gallery .gallery p{
+	margin: 0px;
+	color:#777;
+
+}
+
+/*businesssection part end*/
+
+/*Footer section start*/
+footer{
+   background-color:#999;
+   padding:50px 0px;
+   margin:50px 0px;
+   clear:both;
+   overflow:hidden;
+}
+footer .footer-mid{
+	width:80%;
+	margin:auto;
+}
+footer .footer-mid .footer1{
+	width:30%;
+	float:left;
+}
+footer .footer-mid .footer1 h4 {
+	color:#333;
+	font-size:20px;
+	text-align:center;
+	margin:0px;
+}
+footer .footer-mid .footer1 p{
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	color:#fff;
+}
+footer .footer-mid .footer1 h4 strong{
+	color:#000;
+	font-size:25px;
+	font-weight:bold;
+	
+}
+
+
+/*Footer section end*/
+
